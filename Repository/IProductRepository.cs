@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ProductMicroservice.Repository
 {
-    interface IProductRepository
+    public interface IProductRepository
     {
         IEnumerable<Product> GetProducts();
         Product GetProductByID(int ProductId);
